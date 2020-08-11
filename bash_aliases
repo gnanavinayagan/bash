@@ -28,6 +28,11 @@ alias rm="rm -i"
 alias dk="cd /home/gnanam/Desktop"
 alias htm="cd /var/www/html"
 
+alias repogit="cd /home/gnanam/repo/git"
+alias gitrepo="cd /home/gnanam/repo/git"
+alias reporhel="cd /home/gnanam/repo/git/myrhel"
+alias repobash="cd /home/gnanam/repo/git/mybash"
+alias repovim="cd /home/gnanam/repo/git/myvim"
 
 
 
