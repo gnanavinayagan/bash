@@ -25,16 +25,16 @@ alias shard="cd /media/gnanam/shared"
 alias suna="sudo nautilus"
 #alias yu="youtube-dl"
 alias rm="rm -i"
-alias dk="cd /home/gnanam/Desktop"
+alias dk="cd ~/Desktop"
 alias htm="cd /var/www/html"
 
-alias repogit="cd /home/gnanam/repo/git"
-alias gitrepo="cd /home/gnanam/repo/git"
-alias reporhel="cd /home/gnanam/repo/git/myrhel"
-alias repobash="cd /home/gnanam/repo/git/mybash"
-alias repovim="cd /home/gnanam/repo/git/myvim"
+alias repogit="cd ~/repo/git"
+alias gitrepo="cd ~/repo/git"
+alias reporhel="cd ~/repo/git/myrhel"
+alias repobash="cd ~/repo/git/mybash"
+alias repovim="cd ~/repo/git/myvim"
 
-
+alias nh="nmap -sn 10.0.0.10/24"
 
 #  youtube-dl -f 'bestvideo[height<=720,ext=mp4]'
 #  youtube-dl 
