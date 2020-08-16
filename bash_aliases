@@ -35,7 +35,7 @@ alias repobash="cd ~/repo/git/mybash"
 alias repovim="cd ~/repo/git/myvim"
 
 alias nh="nmap -sn 10.0.0.10/24"
-
+alias iff="ifconfig"
 #  youtube-dl -f 'bestvideo[height<=720,ext=mp4]'
 #  youtube-dl 
 
