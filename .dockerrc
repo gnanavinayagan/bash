@@ -1,0 +1,22 @@
+# Docker aliases
+
+alias dpsa="docker ps -a"
+alias dps="docker ps"
+
+alias ded="docker exec -d $1 $2"
+alias dei="docker exec -it $1 $2"
+
+alias dl="docker logs $1"
+
+
+function drdit(){
+  docker run --name=$1 -dit $2 bash 
+}
+
+function drit(){
+  docker run --name=$1 -it $2 bash
+}
+
+function de(){
+  docker exec -it $1 bash
+}
