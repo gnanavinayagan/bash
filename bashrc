@@ -121,5 +121,21 @@ fi
 
 # . /home/gnanam/Desktop/qnx660/qnx660-env.sh
 
+if [ -f /home/gnanam/.dockerrc ]; then
+    . /home/gnanam/.dockerrc
+fi  
+
+
+# function drdit(){
+#   docker run --name=$1 -dit $2 bash 
+# }
+# 
+# function drit(){
+#   docker run --name=$1 -it $2 bash
+# }
+# 
+# function deb(){
+#   docker exec -it $1 bash
+# }
 
 echo "This is bashrc"

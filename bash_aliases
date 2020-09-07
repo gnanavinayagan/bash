@@ -39,3 +39,12 @@ alias iff="ifconfig"
 #  youtube-dl -f 'bestvideo[height<=720,ext=mp4]'
 #  youtube-dl 
 
+# ##################################Docker##############################################
+# alias dps="docker ps"
+# alias drdit="docker run --name=$1 -dit $2 /bin/bash"
+# alias drit="docker run --name=$1 -it $2 /bin/bash"
+# alias ded="docker exec -d $1 $2"
+# alias dei="docker exec -it $1 $2"
+# alias deb="docker exec -it $1 bash"
+# alias dl="docker logs $1"
+
