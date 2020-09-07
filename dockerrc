@@ -17,6 +17,6 @@ function drit(){
   docker run --name=$1 -it $2 bash
 }
 
-function de(){
+function deb(){
   docker exec -it $1 bash
 }
