@@ -121,8 +121,8 @@ fi
 
 # . /home/gnanam/Desktop/qnx660/qnx660-env.sh
 
-if [ -f /home/gnanam/.dockerrc ]; then
-    . /home/gnanam/.dockerrc
+if [ -f ~/.dockerrc ]; then
+    . ~/.dockerrc
 fi  
 
 
@@ -137,5 +137,7 @@ fi
 # function deb(){
 #   docker exec -it $1 bash
 # }
-
+#PATH="/Applications/CMake.app/Contents/bin":"$PATH"
 echo "This is bashrc"
+# bindkey -v 
+set -o vi
